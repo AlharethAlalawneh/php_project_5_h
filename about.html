@@ -9,16 +9,28 @@
     <style>
 
 :root{
-    --blackRussian: #767575;
-    --greyWhite: #ffffff;
+    --blackRussian: #ffffff;
+    --greyWhite: #121212;
     --pacificBlue: #1ca9c9;
 }
         header {
-            background-color: #333;
-            color: #ffffff;
+            background-color: #f9f9f9;
+            color: #080808;
             text-align: center;
-            padding: 1rem;
+            /* padding: 1rem; */
         }
+
+        .head-top{
+            background-color: #080808;
+            width: 100%;
+        }
+
+        .brand-name span {
+    background: #fff;
+    color: #1a1818;
+    padding: 5px 10px;
+    transition: background 0.4s ease;
+}
 
         .container {
             display: grid;
@@ -27,7 +39,7 @@
             max-width: 800px;
             margin: 2rem auto;
             padding: 1rem;
-            background-color: #333;
+            background-color: #f9f9f9;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
         }
@@ -48,7 +60,7 @@
             max-width: 800px;
             margin: 2rem auto;
             padding: 1rem;
-            background-color: #333;
+            background-color: #e7e5e5;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
         }
@@ -61,6 +73,19 @@
         .about-text2 {
             line-height: 1.6;
         }
+
+        .footer h3 {
+            color: #ffffff;
+        }
+
+        .btnnav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    font-weight: bold;
+    font-size: larger;
+    }
+
     </style>
 </head>
 
@@ -69,8 +94,8 @@
     <header class="header">
         <div class="head-top">
             <a href="index.html" class="brand-name">
-                cushion
-                <span>House</span>
+                Harmony
+                <span>HomeStyles</span>
             </a>
             <div class="btnnav">
                 <button><a href="index.html"><span>Home</span></a></button>
@@ -111,64 +136,6 @@
             </div>
             <img class="about-image" src="./img/about3.jpg" alt="Store Image">
         </div>
-        <!-- footer -->
-        <footer class="footer container">
-            <div class="footer-item">
-                <a href="index.html">
-                    <h2 class="brand-name">
-                        cushion <span>House</span>
-                    </h2>
-                    <p>social media accounts</p>
-                    <ul class="footer-icons">
-                        <li>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                        </li>
-                    </ul>
-            </div>
-
-            <div class="footer-item">
-                <h3>links</h3>
-                <ul>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="#">download</a></li>
-                    <li><a href="#">pricing</a></li>
-                    <li><a href="about.html">about us</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-item">
-                <h3>products</h3>
-                <ul>
-                    <li><a href="#">chair</a></li>
-                    <li><a href="#">sofa</a></li>
-                    <li><a href="#">pillow</a></li>
-                    <li><a href="#">cushion</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-item">
-                <h3>support</h3>
-                <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">how it works</a></li>
-                    <li><a href="#">features</a></li>
-                    <li><a href="#">contact</a></li>
-                </ul>
-            </div>
-        </footer>
-        <!-- end of footer -->
 
 </body>
 
